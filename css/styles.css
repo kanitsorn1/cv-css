@@ -25,6 +25,21 @@ h3 {
 
 a {
     color: #DBE2EF;
+    margin: 0.5rem 1rem;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+}
+
+a:visited {
+    color: #DBE2EF;
+}
+
+a:hover {
+    color: #112D4E;
+}
+
+p {
+    line-height: 3;
 }
 
 .middle-container h2{
@@ -82,8 +97,8 @@ a {
 hr {
     border-color: #3F72AF;
     border-style: dotted none none;
-    border-width: 5px;
-    width: 5%;
+    border-width: 0.5rem;
+    width: 4%;
 
 }
 
@@ -117,14 +132,15 @@ hr {
     margin: 6rem auto;
 }
 
+.skills {
+    padding-top: 3rem;}
+
 .bottom-container {
     line-height: 2;
     background-color: #3F72AF;
     color: #F9F7F7;
-}
-
-a:visited {
-    color: #DBE2EF;
+    padding: 1.5rem 0 0.1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn {
@@ -156,4 +172,10 @@ a:visited {
 
 .btn:visited {
     color:#112D4E ;
+}
+
+.copyright {
+    color: #F9F7F7;
+    font-size: 0.75rem;
+    padding: 1rem 0;
 }
